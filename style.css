@@ -8,6 +8,26 @@ a{text-decoration: none;}
 hr{border:none; border-bottom: 1px solid #ddd}
 
 
+/* Font per minipompieri */
+@font-face {
+  font-family: 'Capture It';
+  src: url('font/capture_it.eot'); /* IE9 Compat Modes */
+  src: url('font/capture_it.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/capture_it.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/capture_it.woff') format('woff'), /* Modern Browsers */
+       url('font/capture_it.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('font/capture_it.svg#CaptureIt') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.minipompieri {
+  font-family: 'Capture It', sans-serif;
+  letter-spacing: 8px;
+  font-size: 2rem;
+  color: #AF001E;
+}
+
 /* ! Stesso font di pompieri.ch*/
 .pt-serif-regular {
   font-family: "PT Serif", serif;
