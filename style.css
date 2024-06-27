@@ -252,12 +252,14 @@ h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
   .sma-33{width: 33.33%}
   .sma-50{width: 50%}
   .sma-25{width: 25%}
+  .sma-100{width: 100%}
 }
 
 /* ! Helpers */
 
 .br{border: 1px solid red;}
 .img-res{width: 100%;}
+.img-res-mini{width: 75%;}
 .video-res{width: 100%;height: 100%;overflow: hidden;}
 .video-res video{width: 100%;height: 100%;object-fit: cover}
 
@@ -291,8 +293,8 @@ ul.elenco li {
 
 
 a:hover {
-  background-color: #fff; /* Colore di sfondo al passaggio del mouse */
-  color: #AF001E; /* Colore del testo al passaggio del mouse */
+  background-color: #fff; 
+  color: #AF001E; 
 }
 
 hr {
