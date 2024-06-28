@@ -9,10 +9,6 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Font per scritta minipompieri -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
-  
 
   <!-- Font Monserrat - usato di default dai pompieri -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,10 +32,6 @@
         <li><a href="#radio"><b>Radio</b></a></li>
         <li><a href="#social"><b>Social</b></a></li>
         </ul>
-      <!-- <div class="header__icons">
-        <a href="http://"><img src="icons/facebook.svg" class="icon-small icon-white" alt=""></a>
-        <a href="http://"><img src="icons/instagram.svg" class="icon-small icon-white sma-none" alt=""></a>
-      </div> -->
     </div>
   </header>
 
@@ -50,12 +42,12 @@
       <div class="cover__content">
         <!-- Qui inizia il loghetto con la data -->
         <div  style="display: inline-block;">
-          <div class="date mt-4">
-            <h2 class="mt-0 mb-0 fade-in">25</h2> 
+          <div class="date mt-4" style="padding: 5px;">
+            <h2 class="mt-0 mb-0 text-data fade-in">25</h2> 
             <hr>
-            <h2 class="mt-0 mb-0 fade-in">08</h2>
+            <h2 class="mt-0 mb-0 text-data fade-in">08</h2>
             <hr>
-            <h2 class="mt-0 mb-0 fade-in">'24</h2>
+            <h2 class="mt-0 mb-0 text-data fade-in">'24</h2>
           </div>
           <div class="img-container pt-0">
             <img src="img/logo-pompieri.jpeg" alt="" class="fade-in">   
@@ -63,7 +55,7 @@
         </div>
 
         <h2 class="text-uppercase text-center text-title mt-3 fade-in">Raduno cantonale</h2>
-        <h1 class="text-uppercase text-center text-red text-title minipompieri fade-in">Mini pompieri</h1>
+        <h1 class="text-uppercase text-center text-red  minipompieri text-title fade-in">Mini pompieri</h1>
       </div>
       <div class="strip-red mr-0 ml-0">
         <h2 class="text-uppercase text-subtitle text-center mb-0 fade-in">Parco urbano Bellinzona</h2>
@@ -175,10 +167,13 @@
     <p>Ti è piaciuto il pranzo? <br>
         Seguici per restare aggiornato sulle manifestazioni alle quali siamo presenti
       </p>
-      <div class="button-container mb-4">
-        <a class="button mt-2" href="https://www.instagram.com/amicideipompieri">@amicideipompieri <br> Instagram</a> 
-        <a class="button mt-2" href="https://www.facebook.com/amicideipompieribellinzona">@amicideipompieri <br> Facebook</a>
+
+      <div class="mb-4 mt-4">
+        <a href="https://www.instagram.com/amicideipompieri" class="svg-button" style="margin-right: 20px;"></a> <a href="https://www.facebook.com/amicideipompieribellinzona" class="svg-button-f" style="margin-left: 20px;"></a>
       </div>
+
+
+
   </div>
 </div>
 
@@ -205,7 +200,7 @@
 
 <div class="grid grid--center mb-2">
   <div class="col-25 v-center sma-100 text-center" style="justify-content: center;">
-    <p>Con il sostegno di</p>
+    <p class="text-sostegno">Con il sostegno di</p>
   </div>
   <div class="col-25 sma-50">
     <img class="img-res-mini" style="margin: auto; display: block;" src="img/bellinzona.png" alt="">

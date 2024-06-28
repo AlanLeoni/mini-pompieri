@@ -10,22 +10,19 @@ hr{border:none; border-bottom: 1px solid #ddd}
 
 /* Font per minipompieri */
 @font-face {
-  font-family: 'Capture It';
-  src: url('font/capture_it.eot'); /* IE9 Compat Modes */
-  src: url('font/capture_it.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('font/capture_it.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/capture_it.woff') format('woff'), /* Modern Browsers */
-       url('font/capture_it.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('font/capture_it.svg#CaptureIt') format('svg'); /* Legacy iOS */
+  font-family: 'Capture it';
+  src: url('Captureit.eot');
+  src: url('Captureit.eot?#iefix') format('embedded-opentype'),
+      url('Captureit.woff2') format('woff2'),
+      url('Captureit.woff') format('woff'),
+      url('Captureit.svg#Captureit') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 .minipompieri {
-  font-family: 'Capture It', sans-serif;
-  letter-spacing: 8px;
-  font-size: 2rem;
-  color: #AF001E;
+  font-family: 'Capture it', 'Montserrat', sans-serif;
 }
 
 /* ! Stesso font di pompieri.ch*/
@@ -65,16 +62,17 @@ body {
 /* ! Title System */
 .text-title{font-size: 6rem}
 .text-0{font-size: 7rem}
-.text-subtitle{font-size: 4rem}
+.text-subtitle{font-size: 4.35rem}
 .text-sez{font-size: 3.2rem}
 h1, .text-1{font-size: 5rem;}
 h2, .text-2{font-size: 3.2rem;}
 h3, .text-3{font-size: 2.2rem;}
 .text-ul{font-size: 2.2rem;}
 h4, p, .text-4{font-size: 1.8rem;}
-
+.text-sostegno{font-size: 1.5rem;}
 h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
-.text-mini{font-size: 0.96rem}
+
+.text-data{font-size: 5rem; font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 5px;}
 @media (max-width: 768px) {
   .text-0{font-size: 4rem}
   .text-2{font-size: 1.8rem;}
@@ -87,6 +85,37 @@ h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
 }
 
 /* ! Button system */
+
+.svg-button {
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  background-image: url('img/social/instagram-red.png');
+  background-size: cover;
+}
+
+.svg-button:hover {
+  background-image: url('img/social/instagram-white.png');
+  background-color: #AF001E;
+}
+
+.svg-button-f {
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  background-image: url('img/social/facebook-red.png');
+  background-size: cover;
+}
+
+.svg-button-f:hover {
+  background-image: url('img/social/facebook-white.png');
+  background-color: #AF001E;
+}
+
+
+
+
+
 .button{font-size: 1.2rem; text-transform: uppercase; font-weight: bold; background: #AF001E; color:#fff; padding: 14px 25px;display: inline-block;border-radius: 4px}
 .button:hover{background: #fff; color: #AF001E; border:1px solid #AF001E;}
 
@@ -166,15 +195,15 @@ h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
 .date {
   background: rgba(175, 0, 30); 
   color: #fff; 
-  padding: 20px; 
+  padding: 5px; 
   text-align: center; 
   margin: auto; 
-  width: 200px;
+  width: 175px;
   display: inline-block; 
 }
 
 .img-container {
-  width: 200px;
+  width: 175px;
 }
 .img-container img {
   width: 100%;
