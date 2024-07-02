@@ -67,7 +67,7 @@ body {
 h1, .text-1{font-size: 5rem;}
 h2, .text-2{font-size: 3.2rem;}
 h3, .text-3{font-size: 2.2rem;}
-.text-ul{font-size: 2.2rem;}
+.text-ul{font-size: 1.8rem;}
 h4, p, .text-4{font-size: 1.8rem;}
 .text-sostegno{font-size: 1.5rem;}
 h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
@@ -76,12 +76,14 @@ h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
 @media (max-width: 768px) {
   .text-0{font-size: 4rem}
   .text-2{font-size: 1.8rem;}
-  .text-title{font-size: 3rem}
-  .text-subtitle{font-size: 2rem}
-  .text-sez{font-size: 2.6rem}
+  .text-title{font-size: 2.6rem}
+  .text-subtitle{font-size: 1.8rem}
+  .text-sez{font-size: 2.5rem}
   .text-3{font-size: 2.3rem;}
-  .text-ul{font-size: 1.8rem;}
+  .text-ul{font-size: 1.5rem;}
+  .text-data{font-size: 3.5rem;}
   h2{font-size: 1.8rem;}
+  p{font-size: 1.5rem;}
 }
 
 /* ! Button system */
