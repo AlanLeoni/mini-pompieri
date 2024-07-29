@@ -285,7 +285,9 @@ h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
   .sma-50{width: 50%}
   .sma-25{width: 25%}
   .sma-100{width: 100%}
+  .ordine-inverso{flex-direction: column-reverse;}
 }
+
 
 /* ! Helpers */
 
@@ -401,5 +403,5 @@ hr {
 
 .fade-up{opacity: 0; transform: translateY(3rem);}
 
-
+.rb{border: 1px solid red;}
 /* end file */
