@@ -404,4 +404,12 @@ hr {
 .fade-up{opacity: 0; transform: translateY(3rem);}
 
 .rb{border: 1px solid red;}
+
+
+.player{
+  display: flex;
+  justify-content: center;
+  height: auto ;
+}
+
 /* end file */
