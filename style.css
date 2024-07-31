@@ -407,9 +407,14 @@ hr {
 
 
 .player{
+
   display: flex;
   justify-content: center;
   height: auto ;
+  padding: 10%;
+  color: #000;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 
 /* end file */
